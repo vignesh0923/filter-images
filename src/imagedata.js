@@ -1,0 +1,37 @@
+export const Gallerydata = [
+    {
+        id:1,
+        title:"brand",
+        image:"./images/brand.jpg"
+    },
+    {
+        id:2,
+        title:"brand",
+        image:"./images/brand2.jpg"
+    },
+    {
+        id:3,
+        title:"seo",
+        image:"./images/seo.jpg"
+    },
+    {
+        id:4,
+        title:"design",
+        image:"./images/design.jpg"
+    },
+    {
+        id:5,
+        title:"design",
+        image:"./images/design2.jpg"
+    },
+    {
+        id:6,
+        title:"content",
+        image:"./images/content.jpg"
+    },
+    {
+        id:7,
+        title:"content",
+        image:"./images/content2.jpg"
+    }
+]

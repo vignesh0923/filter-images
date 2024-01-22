@@ -1,0 +1,42 @@
+.gallery-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.galleryitem img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.gallery-wrapper{
+  padding: 5% 10%;
+}
+
+.filteritem ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+
+.filteritem button{
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background: #3d93b9;
+  color: white;
+  border: navajowhite;
+  border-radius: 50px;
+}
+
+.filteritem button:hover{
+  background: #222;
+  cursor: pointer;
+}
+
